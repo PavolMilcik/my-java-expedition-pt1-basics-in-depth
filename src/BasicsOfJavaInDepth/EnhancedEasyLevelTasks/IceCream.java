@@ -1,4 +1,4 @@
-package ComplexBasicsOfJava.ComplexityInEasyLevelTasks;
+package BasicsOfJavaInDepth.EnhancedEasyLevelTasks;
 
 import java.util.Scanner;
 
