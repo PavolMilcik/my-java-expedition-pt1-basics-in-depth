@@ -18,11 +18,11 @@ public class IceCream {
                     break;
                 } else {
                     System.out.println("You may write some scoops, but no more than 10.\n");
-                    System.out.println("----- Try again.");
+                    System.out.println("---- Try again.");
                 }
             } catch (Exception e) {
                 System.out.println("Write only integer number!\n");
-                System.out.println("----- Try again.");
+                System.out.println("---- Try again.");
                 myScanner.nextLine();
             }
         }
