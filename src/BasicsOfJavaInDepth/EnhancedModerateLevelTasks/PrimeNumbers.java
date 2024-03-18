@@ -1,4 +1,4 @@
-package BasicsOfJavaInDepth.EnhancedEasyLevelTasks;
+package BasicsOfJavaInDepth.EnhancedModerateLevelTasks;
 
 import java.util.Arrays;
 import java.util.Scanner;
