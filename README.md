@@ -13,7 +13,8 @@ Several easier as well as more challenging tasks to practice my knowledge of the
 >  _or use the links below as a path to a specific task --->_
 * [`Calculate Sum and Avg - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/CalculateSumAndAvg.java)
 * [`Guess the Right Number - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/GuessTheRightNumber.java)
-* [`Ice Cream - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/IceCream.java)
+* [`Ice Cream Price - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/IceCreamPrice.java)
+* [`Start Names with Same Char - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/StartNamesWithSameChar.java)
 * [`Sum CountOf and Avg - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/SumCountOfAndAvg.java)
   
 ---
