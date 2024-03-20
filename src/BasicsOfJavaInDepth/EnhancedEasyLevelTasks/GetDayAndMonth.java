@@ -1,7 +1,7 @@
 package BasicsOfJavaInDepth.EnhancedEasyLevelTasks;
 
 
-public class GetDayName {
+public class GetDayAndMonth {
 
     public static String getDayString(int day) {
         return switch (day) {
@@ -35,6 +35,28 @@ public class GetDayName {
     }
 
 
+    public enum Months {
+        JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
+    }
+
+    public static int getMonthNumber(Months month) {
+        return switch (month) {
+            case JANUARY -> 1;
+            case FEBRUARY -> 2;
+            case MARCH -> 3;
+            case APRIL -> 4;
+            case MAY -> 5;
+            case JUNE -> 6;
+            case JULY -> 7;
+            case AUGUST -> 8;
+            case SEPTEMBER -> 9;
+            case OCTOBER -> 10;
+            case NOVEMBER -> 11;
+            case DECEMBER -> 12;
+        };
+    }
+
+
     public static void main(String[] args) {
 
         System.out.println("\n--- After inputting an int number, return a string as the name of the day:");
@@ -50,5 +72,11 @@ public class GetDayName {
         System.out.println(getDayEnum(6));
         System.out.println(getDayEnum(0));
         System.out.println(getDayEnum(8));
+
+        System.out.println("\n--- After inputting the name of the month as an enum, " +
+                "\nreturn the corresponding int number of the month:");
+        System.out.println(getMonthNumber(Months.APRIL));
+        System.out.println(getMonthNumber(Months.JULY));
+        System.out.println(getMonthNumber(Months.DECEMBER));
     }
 }
