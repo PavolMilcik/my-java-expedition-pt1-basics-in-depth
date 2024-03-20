@@ -3,7 +3,7 @@ package BasicsOfJavaInDepth.EnhancedEasyLevelTasks;
 import java.util.Scanner;
 
 
-public class IceCream {
+public class IceCreamPrice {
 
     public static int numberOfScoops() {
         Scanner myScanner = new Scanner(System.in);
