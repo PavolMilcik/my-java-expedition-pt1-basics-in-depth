@@ -16,8 +16,9 @@ Several easier as well as more challenging tasks to practice my knowledge of the
 * [`Get Day and Month - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/GetDayAndMonth.java)
 * [`Guess the Right Number - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/GuessTheRightNumber.java)
 * [`Ice Cream Price - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/IceCreamPrice.java)
-* [`Start Names with Same Char - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/StartNamesWithSameChar.java)
-* [`Sum CountOf and Avg - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/SumCountOfAndAvg.java)
+* [`Find Max Number and Max Row Sum - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/MaxNumberAndMaxRowSum.java)
+* [`Start Names with Same Char? - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/StartNamesWithSameChar.java)
+* [`Get Sum CountOf and Avg - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/SumCountOfAndAvg.java)
   
 ---
 ### Enhanced Moderate Level Java Tasks
