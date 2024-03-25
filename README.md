@@ -27,4 +27,5 @@ Several easier as well as more challenging tasks to practice my knowledge of the
 > 
 >  _or use the links below as a path to a specific task --->_
 * [`Fibonacci Sequence - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/FibonacciSequence.java)
+* [`Generate a Array of Random Numbers - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/GenerateArrayOfRandomNumbers.java)
 * [`Prime Numbers - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/PrimeNumbers.java)
