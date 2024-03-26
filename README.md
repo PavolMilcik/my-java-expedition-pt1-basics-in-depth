@@ -26,7 +26,9 @@ Several easier as well as more challenging tasks to practice my knowledge of the
 > _the path to all tasks -_ [`src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks`](https://github.com/PavolMilcik/my-java-expedition-pt1-basics-in-depth/tree/main/src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks)
 > 
 >  _or use the links below as a path to a specific task --->_
+* [`Are Anagrams? and Sort Chars in Strings - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/AreAnagramsAndSortChars.java)
 * [`Fibonacci Sequence - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/FibonacciSequence.java)
 * [`Generate a Array of Random Numbers (without repeating any numbers!) - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/GenerateArrayOfRandomNumbers.java)
 * [`Is Palindrome? and Reverse String - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/IsPalindromeAndReverseString.java)
 * [`Prime Numbers - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/PrimeNumbers.java)
+
