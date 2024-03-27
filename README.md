@@ -17,6 +17,7 @@ Several easier as well as more challenging tasks to practice my knowledge of the
 * [`Guess the Right Number - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/GuessTheRightNumber.java)
 * [`Ice Cream Price - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/IceCreamPrice.java)
 * [`Find Max Number and Max Row Sum - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/MaxNumberAndMaxRowSum.java)
+* [`No Repeating Characters - is string isogram? - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/NoRepeatingCharacters.java)
 * [`Start Names with Same Char? - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/StartNamesWithSameChar.java)
 * [`Get Sum CountOf and Avg - java task`](src/BasicsOfJavaInDepth/EnhancedEasyLevelTasks/SumCountOfAndAvg.java)
   
