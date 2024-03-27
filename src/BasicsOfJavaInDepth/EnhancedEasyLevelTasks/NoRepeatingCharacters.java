@@ -1,4 +1,4 @@
-package BasicsOfJavaInDepth.EnhancedModerateLevelTasks;
+package BasicsOfJavaInDepth.EnhancedEasyLevelTasks;
 
 
 public class NoRepeatingCharacters {
