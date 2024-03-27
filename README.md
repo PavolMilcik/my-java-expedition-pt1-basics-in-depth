@@ -29,6 +29,7 @@ Several easier as well as more challenging tasks to practice my knowledge of the
 * [`Are Anagrams? and Sort Chars in Strings - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/AreAnagramsAndSortChars.java)
 * [`Brackets Checker - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/BracketsChecker.java)
 * [`Fibonacci Sequence - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/FibonacciSequence.java)
+* [`Frequency of Occurrence of Numbers - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/FrequencyOfOccurrenceOfNumbers.java)
 * [`Generate a Array of Random Numbers (without repeating any numbers!) - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/GenerateArrayOfRandomNumbers.java)
 * [`Is Palindrome? and Reverse String - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/IsPalindromeAndReverseString.java)
 * [`Return Longest Palindrome Substring - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/LongestPalindromeSubstring.java)
