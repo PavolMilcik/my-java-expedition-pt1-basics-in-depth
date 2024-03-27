@@ -35,4 +35,5 @@ Several easier as well as more challenging tasks to practice my knowledge of the
 * [`Is Palindrome? and Reverse String - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/IsPalindromeAndReverseString.java)
 * [`Return Longest Palindrome Substring - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/LongestPalindromeSubstring.java)
 * [`Prime Numbers - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/PrimeNumbers.java)
+* [`Rotate Matrix and Transpose Matrix - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/RotateMatrixAndTransposeMatrix.java)
 
