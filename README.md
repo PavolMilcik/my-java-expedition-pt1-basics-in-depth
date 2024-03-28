@@ -36,4 +36,5 @@ Several easier as well as more challenging tasks to practice my knowledge of the
 * [`Return Longest Palindrome Substring - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/LongestPalindromeSubstring.java)
 * [`Prime Numbers - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/PrimeNumbers.java)
 * [`Rotate Matrix and Transpose Matrix - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/RotateMatrixAndTransposeMatrix.java)
+* [`The Triangle the Rhombus and Numbers In Rows - java task`](src/BasicsOfJavaInDepth/EnhancedModerateLevelTasks/TriangleRhombusNumbersInRows.java)
 
