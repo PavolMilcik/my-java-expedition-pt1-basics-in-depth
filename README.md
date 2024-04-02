@@ -2,7 +2,7 @@
 Join 'My Java Expedition' and explore a variety of tasks designed to enhance understanding of the Java programming language. 
 From easy exercises to more complex challenges, this collection is carefully crafted to support my learning journey at every step.
 
-## Part 1 - Basics of Java in Depth
+# Part 1 - Basics of Java in Depth
 Several easier as well as more challenging tasks to practice my knowledge of the Java programming language.
 
 ---
