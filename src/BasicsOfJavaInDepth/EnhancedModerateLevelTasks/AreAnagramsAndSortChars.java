@@ -92,6 +92,30 @@ public class AreAnagramsAndSortChars {
         return Arrays.equals(charArrayTextK, charArrayTextL);
     }
 
+    // ---------------------------------------------------------------------------------------
+    // ------------------- ANOTHER ENHANCED VERSION of the'ARE ANAGRAMS?' task ---------------
+    public static boolean areStringsAnagrams(String textA, String textB) {
+        if (textA.length() != textB.length()) {
+            return false;
+        }
+        for (int i = 0; i < textA.length(); i++) {
+            int tempCounterA = 0;
+            int tempCounterB = 0;
+            for (int j = 0; j < textA.length(); j++) {
+                if (textA.charAt(i) == textA.charAt(j)) {
+                    tempCounterA++;
+                }
+                if (textA.charAt(i) == textB.charAt(j)) {
+                    tempCounterB++;
+                }
+            }
+            if (tempCounterA != tempCounterB) {
+                return false;
+            }
+        }
+        return true;
+    }
+
 
     public static void main(String[] args) {
         String stringA = "heart";
@@ -104,14 +128,21 @@ public class AreAnagramsAndSortChars {
         System.out.println("\n\nThis program checks if two strings are anagrams of each other " +
                 "\nand returns true or false as a result.\n");
 
-        System.out.println("--- Enhanced version of 'are anagrams' task:");
+        System.out.println("--- Enhanced version of the 'are anagrams' task:");
         System.out.println(stringA + ", " + stringB + " - " + checkIfAnagrams(stringA, stringB));
         System.out.println(stringC + ", " + stringD + " - " + checkIfAnagrams(stringC, stringD));
         System.out.println(stringE + ", " + stringF + " - " + checkIfAnagrams(stringE, stringF));
 
-        System.out.println("\n--- Shorter version of 'are anagrams' task:");
+        System.out.println("\n--- Shorter version of the 'are anagrams' task:");
         System.out.println("cafe, face" + " - " + areAnagrams("cafe", "face"));
         System.out.println("road, dore" + " - " + areAnagrams("road", "dore"));
         System.out.println("angel, angle" + " - " + areAnagrams("angel", "angle"));
+
+        System.out.println("\n--- Another enhanced version of the 'are anagrams' task:");
+        System.out.println(stringA + ", " + stringB + " - " + areStringsAnagrams(stringA, stringB));
+        System.out.println(stringC + ", " + stringD + " - " + areStringsAnagrams(stringC, stringD));
+        System.out.println(stringE + ", " + stringF + " - " + areStringsAnagrams(stringE, stringF));
+        System.out.println("cafe, face" + " - " + areStringsAnagrams("cafe", "face"));
+        System.out.println("road, dore" + " - " + areStringsAnagrams("road", "dore"));
     }
 }
