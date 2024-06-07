@@ -134,22 +134,59 @@ public class TriangleRhombusNumbersInRows {
     }
 
 
+    // -------------------- 4. Rhombus with a special character in the center -------------------
+    public static void specialRhombusByForLoop(int rows) {
+        // The 'rows' should be an even number so that the special character is exactly in the center.
+
+        for (int row = 1; row <= rows; row++) {
+            for (int space = row; space <= rows; space++) {
+                System.out.print(" ");
+            }
+            for (int star = 1; star <= row; star++) {
+                if (row == rows - 1 && star == rows / 2) {
+                    System.out.print(" o");
+                } else if (row == rows && star == rows / 2 || row == rows && star == rows / 2 + 1) {
+                    System.out.print(" o");
+                } else {
+                    System.out.print(" *");
+                }
+            }
+            System.out.println();
+        }
+
+        for (int row = 1; row < rows; row++) {
+            for (int space = 1; space <= row + 1; space++) {
+                System.out.print(" ");
+            }
+            for (int star = row; star < rows; star++) {
+                if (row == 1 && star == rows / 2) {
+                    System.out.print(" o");
+                } else {
+                    System.out.print(" *");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+
     public static void main(String[] args) {
 
-//         ----------------------------- The Triangle - 'The Christmas Tree' ----------------------------
+//         ------------------ 1. Example - The Triangle - 'The Christmas Tree' --------------------------------
 //                                               *
 //                                              * *
 //                                             * * *
 //                                            * * * *
 //                                           * * * * *
 //                                          * * * * * *
-        System.out.println("\n\n--- 1. Example - The Triangle - 'The Christmas Tree' - by For and While loops --- ");
+        System.out.println("\n\n-------- 1. Example - The Triangle - 'The Christmas Tree' --- ");
+        System.out.println("-------- by For and While loops --- ");
         triangleByForLoop(6);
         System.out.println();
         triangleByWhileLoop(6);
 
 
-//         ------------------------- The Rhombus - 'Kamzík' -------------------------------------------
+//         --------------- 2. Example - The Rhombus - 'Kamzík' ------------------------------------------------
 //                                           *
 //                                          * *
 //                                         * * *
@@ -164,7 +201,7 @@ public class TriangleRhombusNumbersInRows {
         rhombusByWhileLoop(4);
 
 
-//         ---------------------------- Numbers in rows  -----------------------------------------
+//         --------------------- 3. Example - Numbers in rows  ----------------------------------------------
 //                                          1
 //                                          1 2
 //                                          1 2 3
@@ -178,6 +215,25 @@ public class TriangleRhombusNumbersInRows {
         numbersInRowsByForLoop(5);
         System.out.println();
         numbersInRowsByWhileLoop(5);
+
+
+//         ----------- 4. Example - Rhombus with a special character in the center. ---------------------------
+//                                           *
+//                                          * *
+//                                         * * *
+//                                        * * * *
+//                                       * * o * *
+//                                      * * o o * *
+//                                       * * o * *
+//                                        * * * *
+//                                         * * *
+//                                          * *
+//                                           *
+        System.out.println("\n-------- 4. Example - Rhombus with a special character in the center --- ");
+        System.out.println("-------- by For loop --- ");
+        // The 'rows' should be an even number so that the special character is exactly in the center.
+        specialRhombusByForLoop(6);
+        System.out.println();
 
     }
 }
