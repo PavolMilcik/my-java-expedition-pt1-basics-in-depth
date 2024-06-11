@@ -1,4 +1,4 @@
-package BasicsOfJavaInDepth.JavaCollections;
+package BasicsOfJavaInDepth.JavaCollectionsTasks;
 
 import java.util.*;
 
