@@ -97,8 +97,8 @@ public class UsersWithSharedPreference {
 
         System.out.println("\n--------- Users with shared preference ---------");
         // calling the method
-        ArrayList<Integer> bla = findUsersWithSharedPreference(allUsersAndTheirPreferences, findThisPreference);
+        ArrayList<Integer> usersWithSharedPref = findUsersWithSharedPreference(allUsersAndTheirPreferences, findThisPreference);
         // print users with shared preference
-        System.out.println(bla);
+        System.out.println(usersWithSharedPref);
     }
 }
