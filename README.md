@@ -43,7 +43,7 @@ Several easier as well as more challenging tasks to practice my knowledge of the
 > [!NOTE]
 > _the path to all tasks -_ [`src/BasicsOfJavaInDepth/JavaCollectionsTasks`](https://github.com/PavolMilcik/my-java-expedition-pt1-basics-in-depth/tree/main/src/BasicsOfJavaInDepth/JavaCollectionsTasks)
 > 
-> >  _or use the links below as a path to a specific task --->_
+>  _or use the links below as a path to a specific task --->_
 * [`Average Students Grade - java task`](src/BasicsOfJavaInDepth/JavaCollectionsTasks/AverageStudentsGrade.java)
 * [`Find Books By Author - java task`](src/BasicsOfJavaInDepth/JavaCollectionsTasks/FindBooksByAuthor.java)
 * [`Numbers Occurrences - java task`](src/BasicsOfJavaInDepth/JavaCollectionsTasks/NumbersOccurrences.java)
