@@ -26,7 +26,7 @@ public class AverageStudentsGrade {
             int counter = 0;
             int sum = 0;
             double result = 0;
-            for (int grade : entry.getValue()) {
+            for (Integer grade : entry.getValue()) {
                 counter++;
                 sum += grade;
             }
@@ -41,10 +41,11 @@ public class AverageStudentsGrade {
     public static void main(String[] args) {
         HashMap<String, List<Integer>> allStudentsGrades = new HashMap<>();
 
-        ArrayList<Integer> paulsGrades = new ArrayList<>();
-        ArrayList<Integer> lenkasGrades = new ArrayList<>();
-        ArrayList<Integer> bubusGrades = new ArrayList<>();
+        List<Integer> paulsGrades = new ArrayList<>();
+        List<Integer> lenkasGrades = new ArrayList<>();
+        List<Integer> bubusGrades = new ArrayList<>();
 
+        // add random grades
         Random myRandom = new Random();
         for (int i = 0; i < 5; i++) {
             int randomNumberA = myRandom.nextInt(1, 4);
